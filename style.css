@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  paddig: 0;
+  margin: 0;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+}
+.top {
+  position: absolute;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+main {
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  top: 10vh;
+  left: 10%;
+}
+.information {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.info-text {
+  width: 60%;
+}
+.info-text h1 {
+  width: 54%;
+}
+.info-text p {
+  width: 61%;
+  font-size: 18px;
+  color: hsl(303, 10%, 53%);
+}
+.header {
+  font-size: 45px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 25px;
+  line-height: 45px;
+}
+.reviews {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.review-item {
+  display: flex;
+  background: hsl(300, 24%, 96%);
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 380px;
+}
+.stars {
+  margin-right: 30px;
+}
+span {
+  color: hsl(300, 43%, 22%);
+  font-weight: 500;
+}
+.item-1 {
+  align-self: flex-start;
+}
+.item-2 {
+  align-self: center;
+}
+.item-3 {
+  align-self: flex-end;
+}
+.cards {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 31.5%;
+  padding: 30px;
+  background: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+.avatar {
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 20px;
+}
+.avatar-text {
+  margin-top: 5px;
+}
+.avatar-p1,
+.card-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
+.avatar-p2 {
+  color: hsl(333, 80%, 67%);
+  font-size: 17px;
+}
+.card-text {
+  font-weight: 500;
+}
